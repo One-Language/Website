@@ -767,6 +767,15 @@ h4 {
     text-align: center;
 }
 
+.githubLink {
+    color: white;
+    text-decoration: underline;
+}
+
+.githubLink:hover {
+    color: #d9d9d9;
+}
+
 /*=======================================================
 			MEDIA QUERIES:
 ========================================================*/
