@@ -11,6 +11,5 @@ jobs:
       - uses: github/super-linter@v4
         env:
           # VALIDATE_EDITORCONFIG: true
-          VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
