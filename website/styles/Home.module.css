@@ -1,0 +1,28 @@
+.header__wrapper {
+  width: 100%;
+  background-color: bl;
+}
+.header__container {
+  height: 80px;
+  background: wheat;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header__logo {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  color: #fff;
+}
