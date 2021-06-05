@@ -1,7 +1,7 @@
 # One Programming Language Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## OneLang.org Website
@@ -23,6 +23,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jbampton"><img src="https://avatars.githubusercontent.com/u/418747?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Bampton</b></sub></a><br /><a href="#projectManagement-jbampton" title="Project Management">📆</a> <a href="#business-jbampton" title="Business development">💼</a> <a href="https://github.com/One-Language/Website/commits?author=jbampton" title="Code">💻</a> <a href="https://github.com/One-Language/Website/commits?author=jbampton" title="Documentation">📖</a> <a href="#eventOrganizing-jbampton" title="Event Organizing">📋</a> <a href="#financial-jbampton" title="Financial">💵</a> <a href="#ideas-jbampton" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-jbampton" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-jbampton" title="Maintenance">🚧</a> <a href="#mentoring-jbampton" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/One-Language/Website/pulls?q=is%3Apr+reviewed-by%3Ajbampton" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/One-Language/Website/commits?author=jbampton" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://mattglei.ch"><img src="https://avatars.githubusercontent.com/u/43759105?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matt Gleich</b></sub></a><br /><a href="https://github.com/One-Language/Website/commits?author=gleich" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/tHe-AK"><img src="https://avatars.githubusercontent.com/u/19654243?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akshay Kapoor</b></sub></a><br /><a href="https://github.com/One-Language/Website/commits?author=tHe-AK" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Cal-Hagner"><img src="https://avatars.githubusercontent.com/u/44558033?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Caleb Hagner</b></sub></a><br /><a href="https://github.com/One-Language/Website/commits?author=Cal-Hagner" title="Documentation">📖</a></td>
   </tr>
 </table>
 
