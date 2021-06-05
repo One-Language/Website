@@ -78,6 +78,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "async-costelo",
+      "name": "4sync",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34333555?v=4",
+      "profile": "https://github.com/async-costelo",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
