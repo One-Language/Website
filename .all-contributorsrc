@@ -11,7 +11,16 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/2658040?v=4",
       "profile": "https://maxbase.org/",
       "contributions": [
-        "code"
+        "code",
+        "business",
+        "content",
+        "doc",
+        "ideas",
+        "maintenance",
+        "mentoring",
+        "projectManagement",
+        "question",
+        "review"
       ]
     },
     {
