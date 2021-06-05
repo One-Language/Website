@@ -60,6 +60,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Cal-Hagner",
+      "name": "Caleb Hagner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44558033?v=4",
+      "profile": "https://github.com/Cal-Hagner",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
