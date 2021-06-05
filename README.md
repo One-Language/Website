@@ -1,7 +1,7 @@
 # One Programming Language Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## OneLang.org Website
@@ -26,6 +26,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Cal-Hagner"><img src="https://avatars.githubusercontent.com/u/44558033?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Caleb Hagner</b></sub></a><br /><a href="https://github.com/One-Language/Website/commits?author=Cal-Hagner" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/uzproblue"><img src="https://avatars.githubusercontent.com/u/48709598?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Firdavs Rakhmonov</b></sub></a><br /><a href="https://github.com/One-Language/Website/commits?author=uzproblue" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/async-costelo"><img src="https://avatars.githubusercontent.com/u/34333555?v=4?s=100" width="100px;" alt=""/><br /><sub><b>4sync</b></sub></a><br /><a href="https://github.com/One-Language/Website/commits?author=async-costelo" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://allcontributors.org"><img src="https://avatars.githubusercontent.com/u/46410174?v=4?s=100" width="100px;" alt=""/><br /><sub><b>All Contributors</b></sub></a><br /><a href="https://github.com/One-Language/Website/commits?author=all-contributors" title="Documentation">📖</a></td>
   </tr>
 </table>
 
