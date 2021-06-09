@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "John",
+  "version": "1.0.0",
+  "description": "All things One and John Bampton",
+  "main": "index.js",
+  "scripts": {
+    "build": "wrangler build",
+    "publish": "wrangler publish",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "John Bampton",
+  "devDependencies": {
+    "prettier": "2.3.1"
+  }
+}
