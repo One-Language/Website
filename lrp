@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+lerna run publish
+# cd languages/python || exit
+# wrangler publish

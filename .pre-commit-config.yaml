@@ -13,13 +13,17 @@ repos:
     rev: v4.0.1
     hooks:
       - id: check-case-conflict
+      - id: check-executables-have-shebangs
+      - id: check-json
       - id: check-merge-conflict
       - id: check-shebang-scripts-are-executable
+      - id: check-toml
       - id: check-yaml
       - id: end-of-file-fixer
         exclude: ^js/plugins/.*$|^bootstrap-4\.1\.1-dist/.*$
       - id: fix-byte-order-marker
       - id: mixed-line-ending
+      - id: pretty-format-json
         exclude: package\.json$|package-lock\.json$
       - id: trailing-whitespace
         exclude: ^js/plugins/.*$|^bootstrap-4\.1\.1-dist/.*$

@@ -1,0 +1,6 @@
+name = "umut"
+type = "webpack"
+account_id = "9434315bd88af67b07677c2cde620d3b"
+workers_dev = true
+route = ""
+zone_id = ""
