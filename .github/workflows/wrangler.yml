@@ -1,0 +1,38 @@
+name: 🚢 Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  john:
+    runs-on: ubuntu-latest
+    name: 🤓 😎 John
+    steps:
+      - uses: actions/checkout@v2
+      - name: 🚀 Publish
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: 'packages/john'
+  max:
+    runs-on: ubuntu-latest
+    name: 🌶️ 🍒 Max
+    steps:
+      - uses: actions/checkout@v2
+      - name: 🚀 Publish
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: 'packages/max'
+  umut:
+    runs-on: ubuntu-latest
+    name: ⚽ 🥋 Umut
+    steps:
+      - uses: actions/checkout@v2
+      - name: 🚀 Publish
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: 'packages/umut'
