@@ -1,11 +1,12 @@
+import AppNav from "./componenets/FirstSection/AppNav";
 import FirstSection from "./componenets/FirstSection/FirstSection";
-import Navbar from "./componenets/FirstSection/Navbar";
 
 
 export default function Home() {
   return (
     <div className="myApp">
-      <Navbar />
+      {/* <Navbar/> */}
+      <AppNav/>
       <FirstSection />
       
     </div>

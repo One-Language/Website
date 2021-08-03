@@ -2,7 +2,6 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
-
   "scripts": {
     "dev": "next dev -p 3005",
     "build": "next build",
@@ -10,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
     "highlight.js": "^11.1.0",
     "next": "11.0.1",
     "next-transpile-modules": "^8.0.0",
     "prismjs": "^1.24.1",
     "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "17.0.2",
-    "react-syntax-highlighter": "^15.4.4"
+    "react-scroll": "^1.8.3",
+    "react-syntax-highlighter": "^15.4.4",
+    "style-loader": "^3.2.1",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",

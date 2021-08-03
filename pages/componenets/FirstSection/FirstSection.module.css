@@ -1,9 +1,6 @@
 .header h1 {
-  /* position: absolute;
-  left: 50%; */
   width: 969px;
   transform: translateX(-50%);
-  /* top: 160px; */
   margin-top: 160px;
   margin-left: 50%;
   font-family: Roboto;
@@ -11,7 +8,6 @@
   font-weight: bold;
   font-size: 60px;
   line-height: 72px;
-  /* or 120% */
 
   text-align: center;
   letter-spacing: 0.8px;
@@ -19,11 +15,8 @@
   color: #111111;
 }
 .header h4 {
-  /* position: absolute; */
   width: 594px;
-  /* top: 250px; */
   margin-top: 10px;
-  /* left: 50%; */
   margin-left: 50%;
   transform: translateX(-50%);
   font-family: Roboto;
@@ -31,23 +24,17 @@
   font-weight: normal;
   font-size: 26px;
   line-height: 36px;
-  /* identical to box height, or 138% */
 
   text-align: center;
 
   color: #111111;
 }
-.pre {
-  position: absolute;
-  width: 594px;
-  top: 350px;
-  left: 50%;
-  transform: translateX(-50%);
-}
+
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-top: 20px; */
 }
 .box input[type="text"] {
   background: rgba(255, 255, 255, 0.85);
@@ -150,3 +137,15 @@
   left: 365px;
   top: -70px;
 }
+.test3  {
+  margin: auto;
+  padding: 20px ;
+  display: block;
+  background: #002451;
+  font-size: .85em;
+  line-height: 1.6em;
+  width: 400px;
+  border-radius: 8px;
+}
+
+
