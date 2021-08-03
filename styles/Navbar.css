@@ -1,0 +1,88 @@
+nav {
+  background: rgba(255, 255, 255, 1);
+}
+
+.scroll {
+  background: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease-in-out;
+}
+.nav-links > .active {
+  background: yello;
+  color: #222222;
+
+  border-radius: 10px;
+}
+.nav-links {
+  color: #222222;
+}
+.nav-links a {
+  margin: 0px 10px;
+  display: inline-block;
+  position: relative;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+}
+
+nav .logo {
+  margin-right: auto;
+  margin-left: 120px;
+  color: #222222;
+
+  cursor: pointer;
+}
+nav h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+nav svg {
+  color: var(--white);
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  nav {
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  .nav-links a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color:black;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-links a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .nav-links > .active:hover:before {
+    visibility: hidden;
+  }
+  #login {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+  }
+  #tryit{
+    background: #111111;
+    border-radius: 8px;
+    color: #FFFFFF;
+
+  }
+}
