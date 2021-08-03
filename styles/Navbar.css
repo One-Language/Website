@@ -47,7 +47,7 @@ nav svg {
 }
 @media screen and (min-width: 768px) {
   nav {
-    width: 1200px;
+    max-width: 1200px;
     display: block;
     margin: auto;
     background: rgba(255, 255, 255, 0.6);

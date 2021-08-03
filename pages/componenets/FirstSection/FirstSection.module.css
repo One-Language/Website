@@ -1,13 +1,13 @@
 .header h1 {
-  width: 969px;
+  width: 100%;
   transform: translateX(-50%);
-  margin-top: 160px;
+  margin-top: 70px;
   margin-left: 50%;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 60px;
-  line-height: 72px;
+  font-size: 3rem;
+  line-height: 3.6rem;
 
   text-align: center;
   letter-spacing: 0.8px;
@@ -15,15 +15,15 @@
   color: #111111;
 }
 .header h4 {
-  width: 594px;
-  margin-top: 10px;
+  max-width: 100%;
+  margin-top: 40px;
   margin-left: 50%;
   transform: translateX(-50%);
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
 
   text-align: center;
 
@@ -86,14 +86,9 @@
   margin-top: 10px;
 }
 
-.images ul {
-  margin-top: 90px;
-  display: flex;
-  justify-content: center;
-}
-.images li {
-  list-style-type: none;
-  margin-right: 50px;
+.images{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .vector {
   display: flex;
@@ -105,9 +100,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
+  font-size: 1.2rem;
+  line-height: 2rem;
 
   text-align: center;
 }
@@ -116,12 +110,12 @@
   box-shadow: 0px 4px 16px #f4e6d7;
   border-radius: 16px 16px 16px 4px;
   height: 180px;
-  width: 600px;
+  max-width: 600px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
   /* or 122% */
   display: block;
   margin: auto;
@@ -133,19 +127,56 @@
 
 .girl {
   display: inline-block;
-  position: relative;
-  left: 365px;
-  top: -70px;
+  display: flex;
+  justify-content: center;
+  transform: translateX(-350px);
 }
-.test3  {
+.code {
   margin: auto;
-  padding: 20px ;
+  padding: 40px;
   display: block;
   background: #002451;
-  font-size: .85em;
-  line-height: 1.6em;
-  width: 400px;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  max-width: 450px;
   border-radius: 8px;
+  margin-top: 20px;
 }
 
-
+@media screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .header h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 100%;
+  }
+  .box input[type="text"] {
+    width: 300px;
+    height: 38px;
+  }
+  .box input[type="submit"] {
+    height: 34px;
+    width: 120px;
+  }
+  .code {
+    padding: 20px;
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+  }
+  .images li {
+    margin-right: 15px;
+  }
+  .box2 {
+    font-size: 1rem;
+  }
+  .girl {
+    transform: translateX(-18rem);
+  }
+  .text2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
