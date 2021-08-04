@@ -13,7 +13,7 @@ An official repository for the One programming language [website](http://onelang
 ### SASS
 
 | NodeJS |	Supported node-sass | version	Node Module |
-| ------- | ------------- | ------------_|
+| ------- | ------------- | -----------|
 | Node 16	|6.0+	|93|
 | Node 15	|5.0+	|88|
 | Node 14	|4.14+	|83|
