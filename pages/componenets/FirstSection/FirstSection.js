@@ -13,7 +13,7 @@ import five from "../../../public/images/5.png";
 import Group from "../../../public/images/Group.png";
 import Girl from "../../../public/images/girl.png";
 
-//import hljs from 'highlight.js';
+import hljs from 'highlight.js';
 import javascript from 'highlight.js/lib/languages/javascript';
 hljs.registerLanguage('javascript', javascript);
 

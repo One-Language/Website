@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { Link,animateScroll as Scroll } from "react-scroll";
 import {Navbar,Nav} from 'react-bootstrap'
+import Image from 'next/image';
+import popwork from "../../../public/images/popwork0.png";
+
 const AppNav = () => {
     const[navbar,setNavbar]=useState(false)
   const changeNav=()=>{
@@ -13,7 +16,7 @@ const AppNav = () => {
   return (
     <Navbar expand="lg"  className={navbar?' scroll':''} >
       <div className="logo">
-        <h3 onClick={Scroll.scrollToTop}>popwork</h3>
+        <h3 onClick={Scroll.scrollToTop}><Image src={popwork} alt=""/></h3>
       </div>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="nav-drop">

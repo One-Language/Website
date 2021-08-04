@@ -1,0 +1,29 @@
+.body {
+  background: white;
+  padding-top: 100px;
+}
+.body ul {
+  list-style: none;
+}
+.body h4 {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  color: #111111;
+}
+.body li {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height, or 130% */
+
+  color: #111111;
+  margin: 15px 0;
+}
