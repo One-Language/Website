@@ -94,34 +94,19 @@ nav {
 
 /*-------- slider ------*/
 
-.company-slider {
+/*910881380 3444987851 2444343282*/
+
+.company-slider.compony-logo {
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
-.slider-container {
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.slider-content-wrapper {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: slide-jsx-3444987851 80s linear infinite;
-    animation: slide-jsx-3444987851 80s linear infinite;
-}
-
-.slider-content-wrapper > div {
-    display: inline-block;
-}
-
-.company-logos-container {
+.company-logos-container.compony-logo {
     white-space: nowrap;
     overflow: hidden;
 }
 
-.company-logos-container > div {
+.company-logos-container.compony-logo>div.compony-logo {
     display: inline-block;
     padding: 0 2.2rem;
     vertical-align: middle;
@@ -130,13 +115,101 @@ nav {
     cursor: default;
     -webkit-transition: opacity 0.2s ease;
     transition: opacity 0.2s ease;
-    animation: ltrmove 5s infinite;
 }
 
-@keyframes ltrmove {
-    from {left: 0px;}
-    to {right: 0px;}
-  }
+.company-logos-container.compony-logo>div.compony-logo:hover {
+    opacity: 0.8;
+}
+
+.slider-container.ltr-fast {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slider-content-wrapper.ltr-fast {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: slide-ltr-fast 80s linear infinite;
+    animation: slide-ltr-fast 80s linear infinite;
+}
+
+.slider-content-wrapper.ltr-fast>div.ltr-fast {
+    display: inline-block;
+}
+
+@-webkit-keyframes slide-ltr-fast {
+    from {
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        -webkit-transform: translate3d(-50%,0,0);
+        -ms-transform: translate3d(-50%,0,0);
+        transform: translate3d(-50%,0,0);
+    }
+}
+
+@keyframes slide-ltr-fast {
+    from {
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        -webkit-transform: translate3d(-50%,0,0);
+        -ms-transform: translate3d(-50%,0,0);
+        transform: translate3d(-50%,0,0);
+    }
+}
+
+.slider-container.ltr-slow {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slider-content-wrapper.ltr-slow {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: slide-ltr-slow 100s linear infinite;
+    animation: slide-ltr-slow 100s linear infinite;
+}
+
+.slider-content-wrapper.ltr-slow>div.ltr-slow {
+    display: inline-block;
+}
+
+@-webkit-keyframes slide-ltr-slow {
+    from {
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        -webkit-transform: translate3d(-50%,0,0);
+        -ms-transform: translate3d(-50%,0,0);
+        transform: translate3d(-50%,0,0);
+    }
+}
+
+@keyframes slide-ltr-slow {
+    from {
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    to {
+        -webkit-transform: translate3d(-50%,0,0);
+        -ms-transform: translate3d(-50%,0,0);
+        transform: translate3d(-50%,0,0);
+    }
+}
 
 /*-------- end of slider ------*/
 
