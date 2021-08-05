@@ -92,6 +92,54 @@ nav {
     margin-right: 3px;
 }
 
+/*-------- slider ------*/
+
+.company-slider {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.slider-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slider-content-wrapper {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: slide-jsx-3444987851 80s linear infinite;
+    animation: slide-jsx-3444987851 80s linear infinite;
+}
+
+.slider-content-wrapper > div {
+    display: inline-block;
+}
+
+.company-logos-container {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.company-logos-container > div {
+    display: inline-block;
+    padding: 0 2.2rem;
+    vertical-align: middle;
+    opacity: 0.25;
+    outline: none;
+    cursor: default;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+    animation: ltrmove 5s infinite;
+}
+
+@keyframes ltrmove {
+    from {left: 0px;}
+    to {right: 0px;}
+  }
+
+/*-------- end of slider ------*/
+
 /*-------- footer ------*/
 
 .footer-container {
