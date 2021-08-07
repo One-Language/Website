@@ -5,8 +5,6 @@
 
 body {
     font-family: open-sans;
-    font-size: 1.1vw;
-    font-size: 1vw;
     margin: 0 auto;
 }
 
@@ -29,7 +27,6 @@ nav {
 }
 
 .navbar-item > a {
-    font-size: 1.1vw;
     color: rgb(92, 92, 92);
     text-decoration: none;
     transition: 0.7s;
@@ -52,14 +49,13 @@ nav {
     font-family: Manjari;
     border: none;
     border-radius: 25px;
-    width: 8vw;
+    width: 11rem;
     background-color: rgb(25,131,255);
     color: white;
     padding: 5px;
     cursor: pointer;
-    margin-top: 0.7vw;
+    margin-top: 1rem;
     transition: 0.7s;
-    font-size: 1.2vw;
 }
 
 .start-learning:hover {
@@ -144,43 +140,6 @@ flex_box_card::after{
     letter-spacing: -.01rem;
 }
 
-/*.flex_container {
-    display: flex;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%); 
-    width: 100%;
-    flex-wrap: wrap;
-    flex-direction: row;
-}    */
-
-
-/*.flex_box {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    margin: 12px;
-    box-shadow: 0 30px 60px 0 rgba(0,0,0,.12);
-    border-radius: 6px;
-    color: inherit;
-    background-color: #fff;
-    box-shadow: 0 30px 60px 0 rgba(0,0,0,.12);
-    transition: background .2s,box-shadow .2s ease;
-    z-index: 1;    
-}*/
-
-/*.flex_box_card {
-    width: 100%;
-    border-radius: 5px;
-    background: white;
-    box-shadow: 1px 1px 3px #777;
-    min-width: 300px;
-    height: 200px;
-    flex-direction: column;
-    padding: 10px;
-}*/
-
 .dot {
   height: 45px;
   width: 45px;
@@ -255,7 +214,6 @@ flex_box_card::after{
         max-width: 100%;
     }
 }
-
 
 /* ############################################################ LogoSlider ############################################################ */
 
