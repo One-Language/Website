@@ -13,7 +13,6 @@ body {
 }
 
 /* ############################################################ Header ############################################################ */
-
 header {
   width: fit-content;
   margin: 20px auto 0px;
@@ -53,6 +52,14 @@ header {
   font-size: 1.2rem;
   overflow: hidden;
   transition: all ease-in-out 250ms;
+}
+.main-nav svg {
+  width: 22px;
+  height: 22px;
+  color: #696969;
+}
+.main-nav svg:hover {
+  color: #111;
 }
 @media (min-width: 725px) {
   .main-nav {
@@ -204,8 +211,10 @@ header {
   padding: 5px;
   cursor: pointer;
   /* margin-top: 0.7vw; */
+  padding-left: 14px;
+  padding-right: 14px;
   transition: 0.7s;
-  font-size: 1rem;
+  font-size: 1.8rem;
 }
 
 .start-learning:hover {
@@ -226,6 +235,16 @@ header {
   width: fit-content;
   margin: 0 auto;
 }
+header .messaeg-box-part a {
+  color: inherit;
+}
+header .messaeg-box-part a:hover {
+  text-decoration: none;
+}
+header .messaeg-box-part a:hover > strong b {
+  color: #0074de;
+}
+
 @media (max-width: 725px) {
   .message-box {
     margin: 40px 0 0 0;
