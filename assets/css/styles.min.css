@@ -281,6 +281,8 @@ header .messaeg-box-part a:hover > strong b {
 
 .desc {
   color: #8c8c8c;
+  width: 60%;
+  margin: auto;
 }
 
 .starter-button {
