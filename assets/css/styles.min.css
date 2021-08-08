@@ -186,7 +186,7 @@ header {
   text-decoration: none;
   transition: 0.7s;
   align-items: center;
-
+  text-align: center;
   /* margin-left: 4.5vw; */
 }
 
@@ -195,7 +195,7 @@ header {
 }
 
 .navbar-item > a:hover {
-  color: rgb(53, 177, 226);
+  color: #000;
 }
 
 .links > a {
