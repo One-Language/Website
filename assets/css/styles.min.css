@@ -10,15 +10,29 @@ body {
 
 /* ############################################################ Header ############################################################ */
 
+body {
+    font-family: xfont;
+    font-size: 1vw;
+    margin: 0 auto;
+}
+
 header {
     width: fit-content;
     margin: 0 auto;
 }
 
-nav { 
+nav {
     display: flex;
     width: fit-content;
     margin: 0 auto;
+}
+
+button {
+    font-family: xfont;
+}
+
+.one-title {
+    font-size: 1.2vw;
 }
 
 .navbar-item {
@@ -27,10 +41,11 @@ nav {
 }
 
 .navbar-item > a {
+    font-size: 1vw;
     color: rgb(92, 92, 92);
     text-decoration: none;
     transition: 0.7s;
-    margin-left: 1.2vw;
+    margin-left: 4.5vw;
 }
 
 .navbar-item > a > li {
@@ -46,16 +61,16 @@ nav {
 }
 
 .start-learning {
-    font-family: Manjari;
-    border: none;
-    border-radius: 25px;
-    width: 11rem;
+    border: rgb(25,131,255) solid 1px;
+    border-radius: 7px;
+    width: 5vw;
     background-color: rgb(25,131,255);
     color: white;
     padding: 5px;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 0.7vw;
     transition: 0.7s;
+    font-size: 1vw;
 }
 
 .start-learning:hover {
@@ -64,10 +79,14 @@ nav {
     border: rgb(25,131,255) solid 1px;
 }
 
+.messaeg-box-part {
+    margin-top: 1vw;
+}
+
 .message-box {
     display: flex;
-    border: gray solid 2px;
-    background: rgb(241, 241, 241);
+    border: rgb(234,234,234) solid 2px;
+    background: rgb(250,250,250);
     border-radius: 5px;
     width: fit-content;
     margin: 0 auto;
@@ -79,15 +98,76 @@ nav {
 }
 
 .badge {
+    padding: 3px;
     background: linear-gradient(
         to right,
-        pink,
-        orange
-        );
+        rgb(237,98,146),
+        rgb(250, 127, 79)
+    );
     border-radius: 5px;
     margin-right: 3px;
+    color: white;
 }
 
+.header-text {
+    width: fit-content;
+    margin-top: 5vw;
+}
+
+.title {
+    font-size: 2.7vw;
+}
+
+.desc {
+    opacity: 0.7;
+}
+
+.starter-button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#start-learning-btn {
+    font-size: 1.2vw;
+    width: 10vw;
+    border: none;
+    background: rgb(25,131,255);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#start-learning-btn:hover {
+    background: rgb(64, 150, 248);
+}
+
+#documention {
+    font-size: 1.2vw;
+    width: 10vw;
+    border: none;
+    background: white;
+    padding: 10px;
+    border: lightgray solid 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#documention:hover {
+    background: rgb(218, 218, 218);
+}
+
+.licence {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.licence > p > a {
+    color: rgb(25,131,255);
+}
 /* ############################################################ Feautres ############################################################ */
 
 .flex_container.container{
