@@ -272,7 +272,11 @@ header .messaeg-box-part a:hover > strong b {
 }
 
 .title {
-  font-size: 4.1rem;
+  /* font-size: 4.1rem; */
+  font-size: 100px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.05em;
 }
 
 .desc {
