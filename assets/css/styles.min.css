@@ -24,15 +24,7 @@ header {
   min-width: 320px;
   margin-bottom: 5rem;
 }
-/* hamburger */
 .nav-toggle {
-  /* display: block;
-    padding: 1em;
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    z-index: 20;
-    cursor: pointer;*/
   display: flex;
   z-index: 21;
   flex: 1;
@@ -126,14 +118,6 @@ header {
   flex: 1;
   z-index: 999;
 }
-/* .nav-toggle {
-          flex: 1;
-        display: block;
-        padding: 1em;
-        position: absolute;
-        right: 1em;
-        top: 1em;
-        cursor: pointer; } */
 
 @media (min-width: 725px) {
   .nav-toggle {
@@ -173,7 +157,6 @@ header {
 
 .navbar-item {
   flex: 2;
-  /* padding: 0 50px; */
   align-items: center;
   display: flex;
   justify-content: space-evenly;
@@ -187,7 +170,6 @@ header {
   transition: 0.7s;
   align-items: center;
   text-align: center;
-  /* margin-left: 4.5vw; */
 }
 
 .navbar-item > a > li {
@@ -205,12 +187,10 @@ header {
 .start-learning {
   border: var(--color-primary) solid 1px;
   border-radius: 7px;
-  /* width: 5vw; */
   background-color: var(--color-primary);
   color: white;
   padding: 5px;
   cursor: pointer;
-  /* margin-top: 0.7vw; */
   padding-left: 14px;
   padding-right: 14px;
   transition: 0.7s;
@@ -266,13 +246,11 @@ header .messaeg-box-part a:hover > strong b {
 }
 
 .header-text {
-  /* width: fit-content; */
   margin-top: 5vw;
   text-align: center;
 }
 
 .title {
-  /* font-size: 4.1rem; */
   font-size: 100px;
   line-height: 1;
   font-weight: 800;
@@ -316,20 +294,12 @@ header .messaeg-box-part a:hover > strong b {
 #start-learning-btn:hover {
   box-shadow: 0 6px 20px rgb(0 118 255 / 23%) !important;
 }
-/*
-#start-learning-btn:hover {
-  color: var(--color-primary);
-  background-color: white;
-  border: var(--color-primary) solid 1px;
-}
-*/
 #documention {
   width: 40%;
   max-width: 200px;
   border: none;
   background: white;
   padding: 10px;
-  /* border: lightgray solid 0.5px; */
   border-radius: 5px;
   color: #696969;
   box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
