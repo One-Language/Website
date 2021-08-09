@@ -293,7 +293,11 @@ header .messaeg-box-part a:hover > strong b {
 }
 .starter-button button {
   font-size: 1.5rem;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
 
 #start-learning-btn {
   width: 40%;
@@ -306,21 +310,29 @@ header .messaeg-box-part a:hover > strong b {
   cursor: pointer;
   transition: 0.7s;
 }
-
+#start-learning-btn:active {
+  background: #006ae6 !important;
+}
+#start-learning-btn:hover {
+  box-shadow: 0 6px 20px rgb(0 118 255 / 23%) !important;
+}
+/*
 #start-learning-btn:hover {
   color: var(--color-primary);
   background-color: white;
   border: var(--color-primary) solid 1px;
 }
-
+*/
 #documention {
   width: 40%;
   max-width: 200px;
   border: none;
   background: white;
   padding: 10px;
-  border: lightgray solid 0.5px;
+  /* border: lightgray solid 0.5px; */
   border-radius: 5px;
+  color: #696969;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
   cursor: pointer;
   transition: 0.7s;
 }
@@ -382,12 +394,13 @@ flex_box_card::after {
 }
 
 .custom-text {
-  width: 60%;
+  width: 40%;
   display: block;
   margin: auto;
   max-width: 90%;
   font-size: 16px;
   letter-spacing: -0.01rem;
+  color: #696969;
 }
 
 .dot {
@@ -452,11 +465,12 @@ flex_box_card::after {
 }
 
 .custom_title {
-  font-size: 32px;
+  font-size: 45px;
   letter-spacing: -0.1rem;
   margin-bottom: 1rem;
   line-height: 1.2;
   font-weight: 700;
+  margin-bottom: 35px;
 }
 @media (max-width: 767px) {
   .flex_container.container {
