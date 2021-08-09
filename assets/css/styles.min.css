@@ -291,9 +291,11 @@ header .messaeg-box-part a:hover > strong b {
   margin-top: 5vw;
   text-align: center;
 }
+.starter-button button {
+  font-size: 1.5rem;
+}
 
 #start-learning-btn {
-  font-size: 1rem;
   width: 40%;
   max-width: 200px;
   border: none;
@@ -312,7 +314,6 @@ header .messaeg-box-part a:hover > strong b {
 }
 
 #documention {
-  font-size: 1rem;
   width: 40%;
   max-width: 200px;
   border: none;
