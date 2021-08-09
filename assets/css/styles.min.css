@@ -152,7 +152,6 @@ header {
   right: 0;
   z-index: 10;
   left: 100%;
-
   font-size: 1.2rem;
   overflow: hidden;
   transition: all ease-in-out 250ms;
@@ -165,12 +164,11 @@ header {
 .main-nav svg:hover {
   color: #111;
 }
-@media (min-width: 725px) {
+@media (min-width: 1055px) {
   .main-nav {
     position: relative;
     flex: auto;
-
-    margin-top: 1em;
+    margin-top: 0.13em;
     margin-left: 2em;
     left: 0;
   }
@@ -181,7 +179,7 @@ header {
   justify-content: space-around;
   height: 100vh;
 }
-@media (min-width: 725px) {
+@media (min-width: 1055px) {
   .main-nav ul {
     flex-direction: row;
     height: auto;
@@ -231,7 +229,7 @@ header {
   z-index: 999;
 }
 
-@media (min-width: 725px) {
+@media (min-width: 1055px) {
   .nav-toggle {
     display: none;
   }
@@ -275,7 +273,7 @@ header {
 }
 
 .navbar-item > a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: rgb(92, 92, 92);
   text-decoration: none;
@@ -339,19 +337,22 @@ header .messaeg-box-part a:hover > strong b {
 
 @media (max-width: 725px) {
   .message-box {
-    margin: 40px 0 0 0;
+    margin: 0 auto;
     font-size: 12px;
   }
 }
 .message-box-info {
   display: flex;
   padding: 8px;
-  flex-wrap: wrap;
   height: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
 }
 
 .badge {
-  padding: 4.5rem;
+  padding: 0.21rem;
   background: linear-gradient(to right, rgb(237, 98, 146), rgb(250, 127, 79));
   border-radius: 5px;
   margin-right: 0.5rem;
@@ -368,6 +369,15 @@ header .messaeg-box-part a:hover > strong b {
   line-height: 1;
   font-weight: 800;
   letter-spacing: -0.05em;
+}
+
+@media (max-width: 725px) {
+  .title {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+  }
 }
 
 .desc {
@@ -391,8 +401,9 @@ header .messaeg-box-part a:hover > strong b {
 
 
 #start-learning-btn {
-  width: 40%;
-  max-width: 200px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
   border: none;
   background: var(--color-primary);
   color: white;
@@ -400,6 +411,7 @@ header .messaeg-box-part a:hover > strong b {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.7s;
+  margin-bottom:  10px;
 }
 #start-learning-btn:active {
   background: #006ae6 !important;
@@ -408,8 +420,9 @@ header .messaeg-box-part a:hover > strong b {
   box-shadow: 0 6px 20px rgb(0 118 255 / 23%) !important;
 }
 #documention {
-  width: 40%;
-  max-width: 200px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
   border: none;
   background: white;
   padding: 10px;
@@ -1047,8 +1060,8 @@ input.subm:focus {
 }
 
 footer.footer-links {
-  padding: 2rem 0 4rem;
-  min-height: 400px;
+    padding: 2rem 0 2rem;
+    min-height: 400px;
 }
 
 a.footer-links,
