@@ -136,15 +136,7 @@ header {
   margin-top: 70px !important;
 }
 
-/* hamburger */
 .nav-toggle {
-  /* display: block;
-    padding: 1em;
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    z-index: 20;
-    cursor: pointer;*/
   display: flex;
   z-index: 21;
   flex: 1;
@@ -160,7 +152,6 @@ header {
   right: 0;
   z-index: 10;
   left: 100%;
-
   font-size: 1.2rem;
   overflow: hidden;
   transition: all ease-in-out 250ms;
@@ -173,12 +164,11 @@ header {
 .main-nav svg:hover {
   color: #111;
 }
-@media (min-width: 725px) {
+@media (min-width: 1055px) {
   .main-nav {
     position: relative;
     flex: auto;
-
-    margin-top: 1em;
+    margin-top: 0.13em;
     margin-left: 2em;
     left: 0;
   }
@@ -189,7 +179,7 @@ header {
   justify-content: space-around;
   height: 100vh;
 }
-@media (min-width: 725px) {
+@media (min-width: 1055px) {
   .main-nav ul {
     flex-direction: row;
     height: auto;
@@ -238,16 +228,8 @@ header {
   flex: 1;
   z-index: 999;
 }
-/* .nav-toggle {
-          flex: 1;
-        display: block;
-        padding: 1em;
-        position: absolute;
-        right: 1em;
-        top: 1em;
-        cursor: pointer; } */
 
-@media (min-width: 725px) {
+@media (min-width: 1055px) {
   .nav-toggle {
     display: none;
   }
@@ -285,21 +267,19 @@ header {
 
 .navbar-item {
   flex: 2;
-  /* padding: 0 50px; */
   align-items: center;
   display: flex;
   justify-content: space-evenly;
 }
 
 .navbar-item > a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: rgb(92, 92, 92);
   text-decoration: none;
   transition: 0.7s;
   align-items: center;
   text-align: center;
-  /* margin-left: 4.5vw; */
 }
 
 .navbar-item > a > li {
@@ -317,12 +297,10 @@ header {
 .start-learning {
   border: var(--color-primary) solid 1px;
   border-radius: 7px;
-  /* width: 5vw; */
   background-color: var(--color-primary);
   color: white;
   padding: 5px;
   cursor: pointer;
-  /* margin-top: 0.7vw; */
   padding-left: 14px;
   padding-right: 14px;
   transition: 0.7s;
@@ -359,19 +337,22 @@ header .messaeg-box-part a:hover > strong b {
 
 @media (max-width: 725px) {
   .message-box {
-    margin: 40px 0 0 0;
+    margin: 0 auto;
     font-size: 12px;
   }
 }
 .message-box-info {
   display: flex;
   padding: 8px;
-  flex-wrap: wrap;
   height: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
 }
 
 .badge {
-  padding: 4.5rem;
+  padding: 0.21rem;
   background: linear-gradient(to right, rgb(237, 98, 146), rgb(250, 127, 79));
   border-radius: 5px;
   margin-right: 0.5rem;
@@ -379,17 +360,24 @@ header .messaeg-box-part a:hover > strong b {
 }
 
 .header-text {
-  /* width: fit-content; */
   margin-top: 5vw;
   text-align: center;
 }
 
 .title {
-  /* font-size: 4.1rem; */
   font-size: 100px;
   line-height: 1;
   font-weight: 800;
   letter-spacing: -0.05em;
+}
+
+@media (max-width: 725px) {
+  .title {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+  }
 }
 
 .desc {
@@ -413,8 +401,9 @@ header .messaeg-box-part a:hover > strong b {
 
 
 #start-learning-btn {
-  width: 40%;
-  max-width: 200px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
   border: none;
   background: var(--color-primary);
   color: white;
@@ -422,6 +411,7 @@ header .messaeg-box-part a:hover > strong b {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.7s;
+  margin-bottom:  10px;
 }
 #start-learning-btn:active {
   background: #006ae6 !important;
@@ -429,20 +419,13 @@ header .messaeg-box-part a:hover > strong b {
 #start-learning-btn:hover {
   box-shadow: 0 6px 20px rgb(0 118 255 / 23%) !important;
 }
-/*
-#start-learning-btn:hover {
-  color: var(--color-primary);
-  background-color: white;
-  border: var(--color-primary) solid 1px;
-}
-*/
 #documention {
-  width: 40%;
-  max-width: 200px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
   border: none;
   background: white;
   padding: 10px;
-  /* border: lightgray solid 0.5px; */
   border-radius: 5px;
   color: #696969;
   box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
@@ -1077,8 +1060,8 @@ input.subm:focus {
 }
 
 footer.footer-links {
-  padding: 2rem 0 4rem;
-  min-height: 400px;
+    padding: 2rem 0 2rem;
+    min-height: 400px;
 }
 
 a.footer-links,
