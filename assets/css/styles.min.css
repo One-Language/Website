@@ -273,7 +273,7 @@ header {
 }
 
 .navbar-item > a {
-  font-size: 1.6rem;
+  font-size: 1.135rem;
   font-weight: 500;
   color: rgb(92, 92, 92);
   text-decoration: none;
@@ -304,7 +304,7 @@ header {
   padding-left: 14px;
   padding-right: 14px;
   transition: 0.7s;
-  font-size: 1.8rem;
+  font-size: 1.135rem;
 }
 
 .start-learning:hover {
@@ -324,15 +324,18 @@ header {
   border-radius: 5px;
   width: fit-content;
   margin: 0 auto;
+  text-decoration: none;
 }
 header .messaeg-box-part a {
   color: inherit;
+  text-decoration: none;
 }
 header .messaeg-box-part a:hover {
   text-decoration: none;
 }
 header .messaeg-box-part a:hover > strong b {
   color: #0074de;
+  text-decoration: none;
 }
 
 @media (max-width: 725px) {
@@ -494,7 +497,7 @@ flex_box_card::after {
   display: block;
   margin: auto;
   max-width: 90%;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: -0.01rem;
   color: #696969;
   margin-bottom: 50px;
@@ -879,7 +882,7 @@ div.sponsors h3 {
 }
 
 .content.news-letter h3.news-letter {
-  font-size: 1.7rem;
+  font-size: 20px;
   line-height: 1.8;
   text-align: left;
   font-weight: 400;
@@ -1060,7 +1063,7 @@ input.subm:focus {
 }
 
 footer.footer-links {
-    padding: 2rem 0 2rem;
+    padding: 2rem 0 0 0;
     min-height: 400px;
 }
 
