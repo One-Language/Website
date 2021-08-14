@@ -422,7 +422,7 @@ header .messaeg-box-part a:hover > strong b {
 #start-learning-btn:hover {
   box-shadow: 0 6px 20px rgb(0 118 255 / 23%) !important;
 }
-#documention {
+#documentation {
   width: 100%;
   max-width: 300px;
   min-width: 200px;
@@ -436,7 +436,7 @@ header .messaeg-box-part a:hover > strong b {
   transition: 0.7s;
 }
 
-#documention:hover {
+#documentation:hover {
   background: rgb(218, 218, 218);
 }
 
