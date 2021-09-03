@@ -1,7 +1,7 @@
 const html = `<!doctype html>
 <body>
   <h1>Hello Max The Super One!!!</h1>
-</body>`
+</body>`;
 
 async function handleRequest(request) {
   return new Response(html, {
