@@ -24,7 +24,7 @@ const html = `<!doctype html>
   <body>
     <h1>Hello John One!!</h1>
   </body>
-</html>`
+</html>`;
 
 async function handleRequest(request) {
   return new Response(html, {
