@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "Umut",
+  "version": "1.0.0",
+  "description": "All things One and Umut",
+  "main": "index.js",
+  "scripts": {
+    "build": "wrangler build",
+    "publish": "wrangler publish",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Umut",
+  "devDependencies": {
+    "prettier": "2.3.1"
+  }
+}
