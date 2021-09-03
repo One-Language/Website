@@ -35,5 +35,5 @@ async function handleRequest(request) {
 }
 
 addEventListener("fetch", event => {
-  return event.respondWith(handleRequest(event.request))
+  return event.respondWith(handleRequest(event.request));
 })
