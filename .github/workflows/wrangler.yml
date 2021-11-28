@@ -5,14 +5,14 @@ on:
     branches:
       - main
 
-  jobs:
-    john:
-      runs-on: ubuntu-latest
-      name: 🤓 😎 John
-      steps:
-        - uses: actions/checkout@v2
-        - name: 🚀 Publish
-          uses: cloudflare/wrangler-action@1.3.0
-          with:
-            apiToken: ${{ secrets.CF_API_TOKEN }}
-            workingDirectory: 'packages/john'
+jobs:
+  john:
+    runs-on: ubuntu-latest
+    name: 🤓 😎 John
+    steps:
+      - uses: actions/checkout@v2
+      - name: 🚀 Publish
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: 'packages/john'
