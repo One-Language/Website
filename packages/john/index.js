@@ -6,7 +6,7 @@ const html = `<!doctype html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>John's One Language 🍇 😎 🤓 🚀 🚀 🚀</title>
     <!-- Facebook Meta Tags -->
-    <meta property="og:image" content="https://fuchsia.surf/assets/images/gifs/police-quest.gif">
+    <meta property="og:image" content="https://slurpcode.github.io/slurp/assets/images/gifs/police-quest.gif">
     <meta property="og:image:type" content="image/gif">
     <meta property="og:image:width" content="360">
     <meta property="og:image:height" content="360">
