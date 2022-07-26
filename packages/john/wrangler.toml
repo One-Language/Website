@@ -1,5 +1,5 @@
 name = "john"
 account_id = "9434315bd88af67b07677c2cde620d3b"
 compatibility_date = "2022-06-25"
-main = "./index.js"
+main = "dist/index.js"
 workers_dev = true
