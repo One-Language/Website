@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: github/super-linter@v4
+      - uses: github/super-linter/slim@v4.9.6
         env:
           # VALIDATE_EDITORCONFIG: true
           VALIDATE_YAML: true
