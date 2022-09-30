@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: FTP Deployer
-        uses: sand4rt/ftp-deployer@v1.4
+        uses: sand4rt/ftp-deployer@v1.5
         with:
           sftp: true
           host: ${{ secrets.SERVER_HOST }}
