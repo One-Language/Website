@@ -1,15 +1,21 @@
-name: Lint Code Base
+name: Lint
 
 on: [pull_request]
 
 jobs:
   build:
-    name: GitHub Super Linter
+    name: Super-Linter
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          # Full git history is needed to get a proper list of changed files within `super-linter`
+          fetch-depth: 0
       - uses: github/super-linter/slim@v4.9.6
         env:
+          DEFAULT_BRANCH: main
+          VALIDATE_ALL_CODEBASE: false
           # VALIDATE_EDITORCONFIG: true
           VALIDATE_YAML: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
