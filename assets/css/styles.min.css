@@ -360,8 +360,13 @@ header .messaeg-box-part a:hover > strong b {
   border-radius: 5px;
   margin-right: 0.5rem;
   color: white;
+  animation: blinker 1s linear infinite;
 }
-
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 .header-text {
   margin-top: 5vw;
   text-align: center;
@@ -478,12 +483,16 @@ header .messaeg-box-part a:hover > strong b {
   margin-right: 10px;
   margin-left: 10px;
 }
+.flex_box:hover{
+  background: #cce2f6;
+  transition: 1s;
+}
 .flex_box::after {
   content: unset !important;
 }
 .flex_box_card {
   border-radius: 6px;
-  background: white;
+  background: transparent;
   min-width: unset;
   height: auto;
   flex-direction: column;
@@ -1107,4 +1116,7 @@ h4.footer-links {
 p.footer-links {
   margin-top: 0;
   margin-bottom: 0.25rem;
+}
+a.footer-links:hover{
+  text-decoration: underline;
 }
