@@ -403,6 +403,8 @@ header .messaeg-box-part a:hover > strong b {
 }
 
 
+
+
 #start-learning-btn {
   width: 100%;
   max-width: 300px;
@@ -420,7 +422,8 @@ header .messaeg-box-part a:hover > strong b {
   background: #006ae6 !important;
 }
 #start-learning-btn:hover {
-  box-shadow: 0 6px 20px rgb(0 118 255 / 23%) !important;
+   color: rgba(255, 255, 255, 1);
+  box-shadow:0px 0px 20px 2px rgba(2, 65, 106, 0.4);
 }
 #documentation {
   width: 100%;
@@ -1107,4 +1110,7 @@ h4.footer-links {
 p.footer-links {
   margin-top: 0;
   margin-bottom: 0.25rem;
+}
+.footer-alignment{
+  text-align: center;
 }
