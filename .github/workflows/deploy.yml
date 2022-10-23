@@ -1,8 +1,13 @@
-on: [push]
+name: Deploy Site
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   mirror_with_sftp:
-    name: deploy
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
