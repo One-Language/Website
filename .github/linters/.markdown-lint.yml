@@ -3,3 +3,6 @@ MD013: false
 
 # MD034/no-bare-urls
 MD034: false
+
+# MD033/no-inline-html
+MD033: false
