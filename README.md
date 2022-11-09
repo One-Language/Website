@@ -26,4 +26,4 @@ An official repository for the One programming language [website](http://onelang
   <img src="https://contrib.rocks/image?repo=One-Language/Website" alt="The One Website Contributors">
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks/preview?repo=One-Language/Website).
