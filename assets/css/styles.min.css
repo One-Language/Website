@@ -116,7 +116,7 @@
 body {
   margin: 0 auto;
   min-width: 320px;
-  font-family: "Inter Regular";
+  font-family: 'Inter Regular';
 }
 
 /* ############################################################ Header ############################################################ */
@@ -238,7 +238,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  content: "";
+  content: '';
   display: block;
   width: 2em;
   height: 3px;
@@ -402,7 +402,6 @@ header .messaeg-box-part a:hover > strong b {
   margin-right: 10px;
 }
 
-
 #start-learning-btn {
   width: 100%;
   max-width: 300px;
@@ -414,7 +413,7 @@ header .messaeg-box-part a:hover > strong b {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.7s;
-  margin-bottom:  10px;
+  margin-bottom: 10px;
 }
 #start-learning-btn:active {
   background: #006ae6 !important;
@@ -556,7 +555,7 @@ flex_box_card::after {
 }
 
 .bg_image {
-  background-image: url("../images/gradient.png");
+  background-image: url('../images/gradient.png');
   left: 0;
   right: 0;
   z-index: 0;
@@ -590,7 +589,7 @@ flex_box_card::after {
 }
 
 .large-container:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -696,7 +695,7 @@ slider-container.companies-path-fast {
 }
 
 .case-studies-container:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -847,7 +846,7 @@ div.sponsors h3 {
 }
 
 .mail-container:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -1014,7 +1013,7 @@ input.subm:focus {
 }
 
 .footer-container:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -1039,7 +1038,7 @@ input.subm:focus {
 }
 
 .footer-zone:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -1063,8 +1062,8 @@ input.subm:focus {
 }
 
 footer.footer-links {
-    padding: 2rem 0 0 0;
-    min-height: 400px;
+  padding: 2rem 0 0 0;
+  min-height: 400px;
 }
 
 a.footer-links,

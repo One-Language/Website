@@ -23,8 +23,6 @@ repos:
         exclude: ^js/plugins/.*$|^bootstrap-4\.1\.1-dist/.*$
       - id: fix-byte-order-marker
       - id: mixed-line-ending
-      - id: pretty-format-json
-        exclude: package\.json$|package-lock\.json$
       - id: trailing-whitespace
         exclude: ^js/plugins/.*$|^bootstrap-4\.1\.1-dist/.*$
   # - repo: git://github.com/Lucas-C/pre-commit-hooks
