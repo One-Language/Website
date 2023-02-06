@@ -9,7 +9,7 @@ An official repository for the One programming language [website](http://onelang
 ### SASS
 
 | NodeJS  | Supported node-sass | version Node Module |
-|---------|---------------------|---------------------|
+| ------- | ------------------- | ------------------- |
 | Node 16 | 6.0+                | 93                  |
 | Node 15 | 5.0+                | 88                  |
 | Node 14 | 4.14+               | 83                  |
@@ -26,4 +26,4 @@ An official repository for the One programming language [website](http://onelang
   <img src="https://contrib.rocks/image?repo=One-Language/Website" alt="The One Website Contributors">
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks/preview?repo=One-Language/Website).
