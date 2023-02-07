@@ -7,6 +7,7 @@ on:
 
 jobs:
   john:
+    if: github.repository == 'One-Language/Website'
     runs-on: ubuntu-latest
     name: 🤓 😎 John
     steps:
