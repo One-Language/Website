@@ -6,18 +6,6 @@ permissions: # added using https://github.com/step-security/secure-workflows
   contents: read
 
 jobs:
-  misspell:
-    name: Check spelling
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out
-        uses: actions/checkout@v3
-      - name: Install
-        run: |
-          wget -O - -q https://git.io/misspell | sh -s -- -b .
-      - name: Misspell
-        run: |
-          git ls-files --empty-directory | grep -v bootstrap-4.1.1-dist | xargs ./misspell -error
   pre-commit:
     name: Run pre-commit # https://pre-commit.com/
     runs-on: ubuntu-latest
