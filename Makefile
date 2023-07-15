@@ -9,3 +9,7 @@ checkinstall:
 .PHONY: checkupdate
 checkupdate:
 	pre-commit autoupdate
+
+.PHONY: lrp
+lrp:
+	lerna run publish
