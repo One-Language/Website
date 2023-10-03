@@ -3,7 +3,9 @@
   font-family: 'Inter Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Inter Regular'), url('../fonts/Inter-Regular.woff') format('woff');
+  src:
+    local('Inter Regular'),
+    url('../fonts/Inter-Regular.woff') format('woff');
 }
 /*
 @font-face {
@@ -449,7 +451,7 @@ header .messaeg-box-part a:hover > strong b {
 .licence > p > a {
   color: var(--color-primary);
 }
-/* ############################################################ Feautres ############################################################ */
+/* ############################################################ Features ############################################################ */
 
 .flex_container.container {
   width: 100%;
@@ -470,7 +472,9 @@ header .messaeg-box-part a:hover > strong b {
   color: inherit;
   background-color: #fff;
   box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.12);
-  transition: background 0.2s, box-shadow 0.2s ease;
+  transition:
+    background 0.2s,
+    box-shadow 0.2s ease;
   z-index: 1;
   margin-bottom: 20px;
   padding: 28px 11px;
@@ -791,7 +795,10 @@ slider-container.companies-path-fast {
   border: none;
   font-size: inherit;
   line-height: inherit;
-  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
   outline: none;
 }
 
@@ -929,7 +936,9 @@ form.subm > div.subm {
 .email.subm {
   text-align: center;
   margin: auto;
-  transition: border-bottom-color 100ms ease-in, color 100ms ease-in;
+  transition:
+    border-bottom-color 100ms ease-in,
+    color 100ms ease-in;
   width: 100%;
 }
 
