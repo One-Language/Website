@@ -2,6 +2,6 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^7.0.2"
+    "lerna": "^8.0.0"
   }
 }
