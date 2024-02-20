@@ -25,4 +25,5 @@ jobs:
           # VALIDATE_EDITORCONFIG: true
           VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
+          YAML_ERROR_ON_WARNING: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
