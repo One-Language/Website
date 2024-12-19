@@ -18,10 +18,12 @@ jobs:
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
-      - uses: super-linter/super-linter/slim@v5.4.3
+      - uses: super-linter/super-linter/slim@v7.2.1
         env:
           DEFAULT_BRANCH: main
-          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_ALL_CODEBASE: true
           # VALIDATE_EDITORCONFIG: true
+          VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
+          YAML_ERROR_ON_WARNING: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
