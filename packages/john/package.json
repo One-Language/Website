@@ -12,6 +12,6 @@
   },
   "author": "John Bampton",
   "devDependencies": {
-    "prettier": "3.5.3"
+    "prettier": "3.6.0"
   }
 }
