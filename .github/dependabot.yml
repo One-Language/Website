@@ -1,13 +1,23 @@
 version: 2
 updates:
-  # Maintain dependencies for GitHub Actions
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'daily'
+    groups:
+      github-actions-dependencies:
+        patterns:
+          - '*'
+    cooldown:
+      default-days: 7
 
-  # Maintain dependencies for npm
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
       interval: 'daily'
+    groups:
+      npm-dependencies:
+        patterns:
+          - '*'
+    cooldown:
+      default-days: 7
