@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: 🤓 😎 John
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6.0.2
       - name: 🚀 Publish
         uses: cloudflare/wrangler-action@v4.0.0
         with:
