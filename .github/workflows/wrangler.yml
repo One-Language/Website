@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.1
       - name: 🚀 Publish
-        uses: cloudflare/wrangler-action@v4.1.1
+        uses: cloudflare/wrangler-action@v4.1.2
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: 'packages/john'
